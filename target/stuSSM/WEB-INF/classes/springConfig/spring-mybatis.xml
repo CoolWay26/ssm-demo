@@ -3,4 +3,12 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
+    <!--载入sql映射-->
+<!--    <mappers>-->
+<!--        &lt;!&ndash;要求mapper接口名称和mapper映射文件名称相同，且放在同一个包中&ndash;&gt;-->
+<!--        <package name="com.ssm.mapper"/>-->
+<!--    </mappers>-->
+    <mappers>
+        <mapper class="com.ssm.mapper.StudentMapper"/>
+    </mappers>
 </configuration>

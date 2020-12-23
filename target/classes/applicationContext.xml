@@ -6,4 +6,5 @@
 
 <!--    <import resource="springConfig/spring-aop.xml"></import>-->
     <import resource="springConfig/spring-dao.xml"></import>
+    <import resource="springConfig/spring-quartz.xml"></import>
 </beans>
